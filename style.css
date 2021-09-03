@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Julee", cursive;
+  margin: auto;
+  text-shadow: 2px 2px 15px rgb(255, 255, 255);
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+#quote-text {
+  color: rgb(0, 0, 0);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  font-size: 2.8rem;
+  font-weight: 800;
+  font-family: "Assistant", sans-serif;
+  text-shadow: 2px 2px 15px rgb(255, 255, 255);
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#gongBtn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 36%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 50%;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+  @media screen and (min-width: 280px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    #quote-text {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 6.5rem;
+    }
+  
+    #quote-text {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1312px) {
+    h1 {
+      font-size: 8rem;
+    }
+  
+    #quote-text {
+      font-size: 4rem;
+    }
+  }
